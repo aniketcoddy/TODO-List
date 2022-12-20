@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   .container {
+    background-color: blueviolet;
+    background-color: blueviolet;
+    height: 100em;
+    width: 100em;
+    background-size: cover;
+}
+   
+   .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: -1px -796px 4px -143px
+   }
+   
+  
+        #add {
+            padding: 96px;
+            background-color: rgb(220, 225, 228);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 291px;
+            height: 43px;
+            border-radius: 32px;
+            margin: 4px 2px 2px -28px;
+        }
+   
+   
+
+        #task {
+            padding: 70px;
+            background-color: rgb(220, 225, 228);
+            width: 28%;
+            height: fit-content;
+            border-radius: 34px;
+            margin: 271px -12px -121px -41px;
+            position: fixed;
+    }
+   
+   .button1 {
+   
+    margin: 69px 18px 4px 4px;
+    padding: 20px;
+       background-color: blueviolet;
+       color: aliceblue;
+       border-radius: 6px;
+       border: none;
+       font-size: 21px;
+   }
+   
+   
+   .button2 {
+   
+       margin: -1px 18px 4px 19px;
+       padding: 10px;
+       background-color: blueviolet;
+       color: aliceblue;
+       border-radius: 6px;
+       border: none;
+       font-size: 21px;
+   }
+   
+   .task2 {
+    background-color: rgb(220, 225, 228);
+    height: fit-content;
+    padding: 5px -6px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #8052ec;
+    cursor: pointer;
+   }
+   
+    .task2 span {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    #text1 {
+        margin: -26px 0px -8px -50px;
+        background-color: rgb(220, 225, 228);
+        padding: 33px 60px 4px 19px;
+        border-color: aliceblue;
+        border-radius: 14px;
+        font-size: 21px;
+    }
+   
+   
+  
+    .delete {
+        background-color: #8052ec;
+        position: absolute;
+        color: aliceblue;
+        height: 8%;
+        width: 64px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 6px;
+        cursor: pointer;
+        outline: none;
+        margin:31px 2px 24px 426px;
+    }
+   
+   
+   .shift{
+       color:white;
+       text-shadow: 0px 4px 4px rgb(black,0, 0);
+   }
