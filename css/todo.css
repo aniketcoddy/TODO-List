@@ -5,7 +5,7 @@
 
 .container {
     background-color: blueviolet;
-   height: 100vh;
+   height: 100%;
    background-size: cover;
 }
 
@@ -69,7 +69,7 @@
 
 .task2 {
     background-color:rgb(220, 225, 228);
-    height: 53px;
+    height:fit-content;
     padding: 5px -6px;
     margin-top: 12px;
     display: flex;
